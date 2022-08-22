@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(38, 157, 221);
+    text-align: center;
+ 
+}
+h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    background-color: rgb(195, 42, 182);
+    color: rgb(52, 211, 38);
+}
+
+table.list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 5px solid rgb(135, 48, 179);
+    text-align: left;
+    padding: 8px 15px;
+    background-color:#cbd8cc ;
+    color: #20231b;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #5918ad;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: thin;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: rgb(198, 25, 25);
+    padding: 6px 16px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:rgb(155, 26, 97);
+    border-radius: 2cm;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: rgb(202, 114, 20);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background:rgba(189, 43, 197, 0.205);
+    color: black;
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tbody {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-part {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+
+button {
+    background: rgb(213, 213, 216);
+    color: black;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
